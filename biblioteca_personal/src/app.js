@@ -1,17 +1,9 @@
-/*
 
+const express = require('express');
+const morgan = require('morgan'); // Muestra por consola lo que recibe el servidor
+const mysql = require('mysql');
 
-
-*/
-
-const app = require('../../../Ejemplos/nodejs-intermedio-m1u4_cancion_hbs/controllers/artistaAPIController');
-
-
-express = require('express');
-morgan = require('morgan'); // Muestra por consola lo que recibe el servidor
-mysql = require('mysql');
-
-app = expres()
+const app = expres()
 
 // Settings
 app.set('port', process.env.PORT || 3000);
