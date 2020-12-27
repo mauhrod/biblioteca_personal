@@ -28,11 +28,12 @@ Crear la base de datos pero desde la linea de comando usando(asumiendo que es us
 	Creado el archivo "src/dev/database.sql" con instruccciónes SQL
 	para crear la base de datos, las tablas y sus relaciones ejecutar en consola desde el directorio raiz del proyecto (WIN y LINUX(falta probar):
 	
-	* mysql -u root -proot biblioteca_personal < src/db/create_db.sql (Falta hacerlo bien) (Cuando hablemos les explico lo que pensé con esto, VER FINAL DEL ARCHIVO)
+	 mysql -u root -proot biblioteca_personal < src/db/create_db.sql 
+	 (Falta hacerlo bien) (Cuando hablemos les explico lo que pensé con esto, VER FINAL DEL ARCHIVO)
 
 Populación inicial de la base de datos:
 	Idem al anteior	pero para poblar la base de datos
-	* mysql -u root -proot biblioteca_personal < src/db/populate.sql (Falta hacerlo, VER FINAL DEL ARCHIVO)
+	mysql -u root -proot biblioteca_personal < src/db/populate.sql (Falta hacerlo, VER FINAL DEL ARCHIVO)
 
 Completar la API, sólo puse la ruta de los diferentes métodos que hay que usar obligatoriamente y, como comentario,
 lo que nos pide la profesora desarrollar.
@@ -49,8 +50,8 @@ Y ademas habría que hacer una breve documentación sobre la API
 * LOS PROFESORES RECIBIDO EL TRABAJO SIN node_modules NI EXPORTACION DE LA BASE DE DATOS (PRESUPONEMOS QUE TIENE NODE.JS Y MySQL) 
   TENDRIAN QUE HACER
 
-npm init
-mysql -u root -proot biblioteca_personal < src/db/create_db.sql
-mysql -u root -proot biblioteca_personal < src/db/populate.sql
+* npm init
+* mysql -u root -proot biblioteca_personal < src/db/create_db.sql
+* mysql -u root -proot biblioteca_personal < src/db/populate.sql
 
 y listo ya tienen funcionando el backend con los datos de MySQL
